@@ -1,0 +1,16 @@
+C:\Users\Kaci\workspace\bank-heist\bin\Debug\net5.0\bank-heist.exe
+C:\Users\Kaci\workspace\bank-heist\bin\Debug\net5.0\bank-heist.deps.json
+C:\Users\Kaci\workspace\bank-heist\bin\Debug\net5.0\bank-heist.runtimeconfig.json
+C:\Users\Kaci\workspace\bank-heist\bin\Debug\net5.0\bank-heist.runtimeconfig.dev.json
+C:\Users\Kaci\workspace\bank-heist\bin\Debug\net5.0\bank-heist.dll
+C:\Users\Kaci\workspace\bank-heist\bin\Debug\net5.0\ref\bank-heist.dll
+C:\Users\Kaci\workspace\bank-heist\bin\Debug\net5.0\bank-heist.pdb
+C:\Users\Kaci\workspace\bank-heist\obj\Debug\net5.0\bank-heist.csproj.AssemblyReference.cache
+C:\Users\Kaci\workspace\bank-heist\obj\Debug\net5.0\bank-heist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaci\workspace\bank-heist\obj\Debug\net5.0\bank-heist.AssemblyInfoInputs.cache
+C:\Users\Kaci\workspace\bank-heist\obj\Debug\net5.0\bank-heist.AssemblyInfo.cs
+C:\Users\Kaci\workspace\bank-heist\obj\Debug\net5.0\bank-heist.csproj.CoreCompileInputs.cache
+C:\Users\Kaci\workspace\bank-heist\obj\Debug\net5.0\bank-heist.dll
+C:\Users\Kaci\workspace\bank-heist\obj\Debug\net5.0\ref\bank-heist.dll
+C:\Users\Kaci\workspace\bank-heist\obj\Debug\net5.0\bank-heist.pdb
+C:\Users\Kaci\workspace\bank-heist\obj\Debug\net5.0\bank-heist.genruntimeconfig.cache
