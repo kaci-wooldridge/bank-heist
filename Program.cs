@@ -20,7 +20,7 @@ namespace BankHeist
                 string givenName = Console.ReadLine();
                 TeamMember.Name = givenName;
                 Console.WriteLine("");
-                if(TeamMember.Name == "")
+                if (TeamMember.Name == "")
                 {
                     break;
                 }
@@ -57,29 +57,37 @@ namespace BankHeist
 
             }
 
+            Console.WriteLine("How many times would you like to run this simulation? (1-5)");
+            string trialRuns = Console.ReadLine();
+            int trialRunsInt = int.Parse(trialRuns);
+
             int bankDifficulty = 100;
             int teamSkillLevel = 0;
 
-            Random r = new Random();
-            int luckValue = r.Next(-10, 11);
-
-            bankDifficulty += luckValue;
-
-            foreach (KeyValuePair<string,TeamMember> member in TheSquad )
+            for (int i = 0; i < trialRunsInt; i++)
             {
-                teamSkillLevel += member.Value.SkillLevel;
+                Random r = new Random();
+                int luckValue = r.Next(-10, 11);
+
+                bankDifficulty += luckValue;
+
+                foreach (KeyValuePair<string, TeamMember> member in TheSquad)
+                {
+                    teamSkillLevel += member.Value.SkillLevel;
+                }
+
+                Console.WriteLine($"You team's skill level is {teamSkillLevel}. The bank's difficulty level is {bankDifficulty}.");
+
+                if (teamSkillLevel >= bankDifficulty)
+                {
+                    Console.WriteLine("You robbed the crap out of that bank");
+                }
+                else
+                {
+                    Console.WriteLine("Wow you got caught so fast");
+                }
             }
 
-            Console.WriteLine($"You team's skill level is {teamSkillLevel}. The bank's difficulty level is {bankDifficulty}.");
-
-            if(teamSkillLevel >= bankDifficulty)
-            {
-                Console.WriteLine("You robbed the crap out of that bank");
-            }
-            else
-            {
-                Console.WriteLine("Wow you got caught so fast");
-            }
         }
     }
 }
